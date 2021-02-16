@@ -58,6 +58,11 @@ function createCactus() {
         }
     }, 20);
 
+    if (randomTime < 500)
+    {
+        randomTime = 500;
+    }
+
     setTimeout(createCactus, randomTime);
 }
 
